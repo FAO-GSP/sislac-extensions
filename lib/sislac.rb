@@ -9,4 +9,9 @@ module Sislac
     PER PRI PRY SGS SLV SUR SXM TCA TTO UMI URY VCT VEN VGB VIR XCL
     ANT
   }
+
+  # Default map center and zoom level
+  mattr_accessor :map_center, :map_zoom
+  @@map_center = [-5, -66]
+  @@map_zoom = 3
 end
