@@ -1,4 +1,9 @@
+---
 en:
+  layouts:
+    navbar:
+      help:
+        url: https://fao-gsp.github.io/sislac-docs/en
   map:
     index:
       info_title: Latin America and the Caribbean's Soil Information System
